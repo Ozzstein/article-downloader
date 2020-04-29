@@ -578,7 +578,7 @@ class ArticleDownloader:
             return True
       except:
         return False
-      return False
+      #return False
 
     if mode == 'elsevier':
       try:
@@ -596,7 +596,7 @@ class ArticleDownloader:
       except:
         # API download limit exceeded
         return False
-      return False
+      #return False
 
     if mode == 'rsc':
       scraper = scrapers.RSC()
